@@ -5,7 +5,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo yum upgrade -y
 
 ## Install Java 11:
-sudo yum install java-11* -y
+sudo yum install java-17 -y
 
 ## Install Jenkins then Enable the Jenkins service to start at boot :
 sudo yum install jenkins -y
